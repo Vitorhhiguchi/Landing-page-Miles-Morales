@@ -1,0 +1,146 @@
+/* All */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0f0f16;
+    font-family: 'Mukta', sans-serif;
+}
+
+.container {
+    display: flex;
+    border: 7px solid rgba(220, 220, 220, 0.214);
+    border-radius: 20px;
+    width: 1400px;
+    height: 800px;
+    margin: 40px;
+}
+
+/* Nav bar */
+nav {
+    display: flex;
+}
+
+.spiderman-logo {
+    position: absolute;
+    left: 230px;
+    top: 105px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    left: 317px;
+    top: 100px;
+}
+
+.nav-items a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}
+
+.nav-items .beyourself {
+    color: #AC0E11;
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    left: 700px;
+    top: 100px;
+}
+
+
+/* Main Lading page */
+main {
+    display: flex;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 260px;
+    right: 460px;
+    width: 500px;
+    height: 300px;
+}
+
+.main-box p {
+    width: 500px;
+    color: #838486;
+    text-align: justify;
+    padding: 20px 0px 35px 0px;
+    left: 50px;
+    position: relative;
+}
+
+.main-box button {
+    width: 45%;
+    height: 45px;
+    color: white;
+    border-radius: 3px;
+}
+
+.main-box .buttons {
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+
+.buttons .pre-order {
+    background-color: #AC0E11;
+    border: 2px solid #AC0E11;
+    cursor: pointer;
+}
+
+.buttons .teaser {
+    background-color: #0f0f16;
+    border: 2px solid #AC0E11;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.logos-box {
+    position: relative;
+    margin-top: 7px;
+    left: 50px;
+}
+
+.logos-box .playstation-icon{
+    position: absolute;
+    top: 13px;
+}
+
+.logos-box .marvel-icon {
+    position: absolute;
+    left: 30px;
+    top: 2px;   
+}
+
+.miles {
+    padding-left: 50px;
+    width: 500px;
+}
+
+/* Logo do Miles Morales */
+picture {
+    position: relative;
+    width: 800px;
+    height: 571.24px;
+    top: 150px;
+    right: 550px;
+    z-index: 1;
+}
+
+.miles-morales {
+    width: 100%;
+}
